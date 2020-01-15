@@ -26,10 +26,6 @@ python3 -m pip install jupyter ipykernel ipython numpy scipy sklearn klampt PyOp
 git clone https://github.com/krishauser/Klampt-jupyter-extension
 cd Klampt-jupyter-extension; make install-user; cd ..
 git clone https://github.com/krishauser/Klampt-examples
-git clone https://github.com/krishauser/RoboticSystemsBook
-
-python3 -m pip install jupyter_contrib_nbextensions
-jupyter contrib nbextension install --user
 
 ipython3 kernel install --user --name cs489ir-virtualenv
 
