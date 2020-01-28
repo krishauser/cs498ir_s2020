@@ -21,7 +21,7 @@ python3 -m pip install --upgrade setuptools
 # Add any additional dependencies here
 #
 ################################################################
-python3 -m pip install jupyter ipykernel ipython numpy scipy sklearn klampt PyOpenGL
+python3 -m pip install jupyter ipykernel ipython numpy scipy sklearn klampt PyOpenGL matplotlib
 
 git clone https://github.com/krishauser/Klampt-jupyter-extension
 cd Klampt-jupyter-extension; make install-user; cd ..
